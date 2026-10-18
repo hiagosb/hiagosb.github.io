@@ -306,6 +306,31 @@ h4 {
   color: var(--muted);
 }
 
+.card-links {                    /* lista de documentos dentro de um cartão */
+  list-style: none;
+  margin-top: 14px;
+  font-size: 0.9rem;
+}
+
+.card-links li + li {
+  margin-top: 6px;
+}
+
+.card-links a {
+  color: var(--text);
+  border-bottom: 1px dashed var(--border);
+}
+
+.card-links a::before {
+  content: "↗ ";
+  color: var(--accent);
+}
+
+.card-links a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 .other-title {
   margin-top: 32px;
   color: var(--muted);
@@ -374,6 +399,11 @@ h4 {
   font-size: 0.85rem;
   border-top: 1px solid var(--border);
   margin-top: 40px;
+}
+
+.version {
+  font-family: "JetBrains Mono", monospace;
+  color: var(--accent);
 }
 
 /* ===== Celular: o menu vira uma faixa que rola para o lado ===== */

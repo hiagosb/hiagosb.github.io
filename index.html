@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 
@@ -236,15 +236,21 @@
             </p>
             <span class="card-footer">Ver no GitHub →</span>
           </a>
-          <a class="card card-link" href="https://github.com/hiagosb/portifolio--academico" target="_blank" rel="noopener">
+          <article class="card">
             <p class="card-meta">Engenharia de Software</p>
             <h4>Portfólio Acadêmico</h4>
             <p>
               Trabalhos da graduação organizados por semestre e disciplina: modelagem e SQL, requisitos de
               software, segurança cibernética e redes.
             </p>
-            <span class="card-footer">Ver no GitHub →</span>
-          </a>
+            <!-- Links diretos para os documentos que já estão no repositório -->
+            <ul class="card-links">
+              <li><a href="https://github.com/hiagosb/portifolio--academico/blob/main/1%20Semestre/1%20-%20Bancos%20de%20Dados%20II/Modelo%20L%C3%B3gico%20Atividade.png" target="_blank" rel="noopener">Modelo lógico do banco de pedidos</a></li>
+              <li><a href="https://github.com/hiagosb/portifolio--academico/tree/main/1%20Semestre/1%20-%20Bancos%20de%20Dados%20II" target="_blank" rel="noopener">Exercícios de SQL DDL</a></li>
+              <li><a href="https://github.com/hiagosb/portifolio--academico/blob/main/1%20Semestre/1%20-%20Bancos%20de%20Dados%20II/Ensaio%20Acad%C3%AAmico%20-%20Banco%20de%20Dados%20NoSQL%20(1).pdf" target="_blank" rel="noopener">Ensaio: NoSQL e PostgreSQL × MongoDB</a></li>
+            </ul>
+            <a class="card-footer" href="https://github.com/hiagosb/portifolio--academico" target="_blank" rel="noopener">Ver repositório completo →</a>
+          </article>
         </div>
       </div>
     </section>
@@ -272,10 +278,10 @@
           <p>Desenvolvimento de produto, qualidade, logística, gestão estratégica, simulação e segurança do trabalho.</p>
         </li>
         <li>
-          <span class="timeline-tag">2020 e 2022</span>
+          <span class="timeline-tag">2020–2022</span>
           <h3>Apuama Racing · Fórmula SAE</h3>
-          <p class="timeline-place">Equipe da UnB · área de Suspensão</p>
-          <p>Trainee e depois membro: materiais compósitos, acerto de suspensão, telemetria e custos.</p>
+          <p class="timeline-place">Equipe da UnB · membro da área de Suspensão</p>
+          <p>Materiais compósitos, acerto de suspensão, telemetria e custos.</p>
         </li>
         <li>
           <span class="timeline-tag">~1 ano</span>
@@ -370,7 +376,7 @@
   </main>
 
   <footer class="footer">
-    <p>Hiago Santos Breda · feito com HTML e CSS, publicado com GitHub Pages</p>
+    <p>Hiago Santos Breda · feito com HTML e CSS, publicado com GitHub Pages · <span class="version">v1.1</span></p>
   </footer>
 
 </body>
